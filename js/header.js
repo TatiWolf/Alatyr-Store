@@ -36,9 +36,9 @@ function setHeader() {
                         <a class="link"
                            href="about.html">производство</a>
                         <a class="link"
-                           href="https://spb.hh.ru/vacancy/81781547?from=vacancy_search_list&query=%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D0%BE%20%D0%B8%20%D1%82%D0%BE%D1%87%D0%BA%D0%B0">карьера</a>
+                           href="about.html">карьера</a>
                         <a class="link"
-                           href="delivery.html">адреса магазинов</a>
+                           href="about.html">адреса магазинов</a>
                     </div>
                 </div>
 
