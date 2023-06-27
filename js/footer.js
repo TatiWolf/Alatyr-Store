@@ -11,7 +11,7 @@ function setFooter() {
     let headerText = `
     <footer class="footer">
     <div class="section">
-        <div class="container flex space-between">
+        <div class="container flex space-between wrap">
             <div class="footer-left">
                 <div class="border add-to-card p-40">
                     <p class="title-3 "> Подпишись на рассылку и получи скидку 15%</p>

@@ -170,6 +170,7 @@ body {
 
 .title-element-category {
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .animate-button {
