@@ -1,0 +1,9 @@
+.test::placeholder {
+    font-family: 'Druk-Wide-Cy-Web', sans-serif;
+    color: #BCBCBC;
+    padding-top: 5px;
+    font-size: 2rem;
+    display: flex;
+    text-align: end;
+    align-items: center;
+}

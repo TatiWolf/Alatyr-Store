@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Druk-Wide-Cy-Web";
+    src: url("../fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf") format("truetype");
+}
+
+.title-1 {
+    font-family: 'Druk-Wide-Cy-Web', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 61px;
+    color: #FFFFFF;
+}
+
+.title-2 {
+    font-family: 'Druk-Wide-Cy-Web', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    color: #FFFFFF;
+}
+.title-3 {
+     font-family: 'Druk-Wide-Cy-Web', sans-serif !important;
+     font-style: normal !important;
+     font-weight: 500 !important;
+     font-size: 27px !important;
+     color: #FFFFFF !important;
+ }
+
+.title-4 {
+    font-family: 'Druk-Wide-Cy-Web', sans-serif ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    color: #FFFFFF;
+}
+
+.paragraph {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.link {
+    cursor: pointer;
+    font-family: 'Druk-Wide-Cy-Web', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size .3s;
+}
+
+.link:hover {
+    background-size: 100% 2px;
+}
+
+.link-tiny {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.paragraph-big {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.paragraph-tiny {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.66rem;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-gray {
+    color: #BCBCBC;
+}
+
+.text-blue {
+    color: #B8EAFF;
+}
+
+.text-black {
+    color: #151515;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+
+

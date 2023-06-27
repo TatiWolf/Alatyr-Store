@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link rel="stylesheet"
+          href="../../../statics/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>MegaShop</title>
+
+</head>
+<body>
+
+<section class="section">
+    <div class="container mb-40">
+        <div class="swiper mySwiper radius relative">
+            <div class="bottom-wrap-slider ">
+                <div onclick="allCatalog()" class="pointer flex align-center w-full">
+                    <span class="animate-button border p-26-40 text-center title-4 flex space-between w-full ml-20">
+                в каталог
+                        <svg width="179" height="24" viewBox="0 0 179 24"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2 10.5C1.17157 10.5 0.5 11.1716 0.5 12C0.5 12.8284 1.17157 13.5 2 13.5L2 10.5ZM178.061 13.0607C178.646 12.4749 178.646 11.5251 178.061 10.9394L168.515 1.39341C167.929 0.807626 166.979 0.807626 166.393 1.39341C165.808 1.9792 165.808 2.92895 166.393 3.51473L174.879 12L166.393 20.4853C165.808 21.0711 165.808 22.0208 166.393 22.6066C166.979 23.1924 167.929 23.1924 168.515 22.6066L178.061 13.0607ZM2 13.5L177 13.5L177 10.5L2 10.5L2 13.5Z"
+                            />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="swiper-wrapper radius">
+                <div class="swiper-slide radius">
+                    <img class="slider-img radius" src="../../../statics/img/slider/slide-1.png" alt="">
+                </div>
+                <div class="swiper-slide radius">
+                    <img class="slider-img radius" src="../../../statics/img/slider/slide-2.png" alt="">
+                </div>
+                <div class="swiper-slide radius">
+                    <img class="slider-img radius" src="../../../statics/img/slider/slide-3.png" alt="">
+                </div>
+                <div class="swiper-slide radius">
+                    <img class="slider-img radius" src="../../../statics/img/slider/slide-4.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container flex space-between">
+        <a class="title-element-category mr-20" href="../catalog/catalog.html" onclick="transitionToType('1')">
+            <img class="title-element-category-img mb-20"
+                 src="../../../statics/img/catalog/catal_face.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для лица
+            </p>
+        </a>
+        <a class="title-element-category mr-20" href="../catalog/catalog.html" onclick="transitionToType('2')">
+            <img class="title-element-category-img mb-20"
+                 src="../../../statics/img/catalog/catal_hair.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для волос
+            </p>
+        </a>
+        <a class="title-element-category mr-20" href="../catalog/catalog.html" onclick="transitionToType('0')">
+            <img class="title-element-category-img mb-20" src="../../../statics/img/catalog/catal_body.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">уход для тела
+            </p>
+        </a>
+        <a class="title-element-category mr-20" href="../catalog/catalog.html" onclick="transitionToType('3')">
+            <img class="title-element-category-img mb-20" src="../../../statics/img/catalog/catal_merch.png">
+            <p class="animate-button border p-16-30 text-center title-4 pointer">мерч
+            </p>
+        </a>
+    </div>
+</section>
+
+<script src="../ticker/ticker.js"></script>
+<script src="../header.js"></script>
+<script src="../footer.js"></script>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    document.addEventListener('DOMContentLoaded', swipe);
+</script>
+</body>
+</html>
