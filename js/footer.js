@@ -1,4 +1,12 @@
+function changeChoices() {
+    let done =  document.querySelector('#ok')
+    if (done.classList.contains("hide")) {
+    done.classList.remove('hide')
+    } else {
+        done.classList.add('hide')
+    }
 
+}
 function setFooter() {
     let headerText = `
     <footer class="footer">
@@ -12,7 +20,11 @@ function setFooter() {
                                class="link-button text-start"
                                placeholder="Email:">
                         <div class="checkbox-subscription">
-                            <img src="/statics/img/icons/check/noCheck.svg" alt="">
+                        <svg onclick="changeChoices()" style="margin-right: 15px;" xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31" fill="none">
+                        <rect x="1.5" y="1.58044" width="27" height="27" rx="4.5" stroke="white" stroke-width="3"/>
+                        <path class="hide" id="ok" d="M26.1833 7.09712C26.0284 6.94091 25.8441 6.81692 25.641 6.7323C25.4379 6.64769 25.22 6.60413 25 6.60413C24.78 6.60413 24.5622 6.64769 24.3591 6.7323C24.156 6.81692 23.9716 6.94091 23.8167 7.09712L11.4 19.5305L6.18335 14.2971C6.02248 14.1417 5.83258 14.0195 5.62449 13.9375C5.4164 13.8555 5.19419 13.8153 4.97056 13.8192C4.74692 13.823 4.52624 13.8709 4.32111 13.9601C4.11598 14.0492 3.93042 14.1779 3.77502 14.3388C3.61962 14.4997 3.49743 14.6896 3.41542 14.8977C3.33342 15.1057 3.2932 15.328 3.29707 15.5516C3.30094 15.7752 3.34882 15.9959 3.43797 16.201C3.52713 16.4062 3.65582 16.5917 3.81668 16.7471L10.2167 23.1471C10.3716 23.3033 10.556 23.4273 10.7591 23.5119C10.9622 23.5966 11.18 23.6401 11.4 23.6401C11.62 23.6401 11.8379 23.5966 12.041 23.5119C12.2441 23.4273 12.4284 23.3033 12.5834 23.1471L26.1833 9.54712C26.3525 9.39105 26.4875 9.20163 26.5799 8.9908C26.6722 8.77997 26.7199 8.55229 26.7199 8.32212C26.7199 8.09195 26.6722 7.86428 26.5799 7.65345C26.4875 7.44261 26.3525 7.25319 26.1833 7.09712V7.09712Z" fill="white"/>
+                        </svg>
+
                             <img src="/statics/img/icons/check/check.svg" alt="">
                             <label class="link-tiny"
                                    for="done">я согласен на все</label>
