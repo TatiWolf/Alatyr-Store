@@ -45,7 +45,7 @@ function setFooter() {
                     </div>
                 </div>
                 <div>
-                    <h5 class="title-3">Возникли вопросы? Ответим!</h5>
+                    <h5 class="title-3" id="contact">Возникли вопросы? Ответим!</h5>
                     <div class="flex space-between ">
                         <a class="footer-img-link flex align-center link link-tiny mr-20">
                             <img  src="statics/img/icons/instagram.svg"

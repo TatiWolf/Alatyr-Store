@@ -21,17 +21,9 @@ function setHeader() {
                 </div>
                 <div>
                     <div>
-                        <a href="about.html">
-                        <button class="animate-button dropdown link">о нас
+                        <button onclick="showList('about')" class="animate-button dropdown link">о нас
                         </button>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <button onclick="showList('contact')"
-                            class="animate-button dropdown link">контакты
-                    </button>
-                    <div id="contact"
+                        <div id="about"
                          class="dropdown-content border">
                         <a class="link"
                            href="about.html">производство</a>
@@ -40,6 +32,14 @@ function setHeader() {
                         <a class="link"
                            href="about.html">адреса магазинов</a>
                     </div>
+                    </div>
+                </div>
+                <div>
+                <a href="#contact">
+                    <button class="animate-button dropdown link"
+                    >контакты
+                    </button>
+                    </a>
                 </div>
 
             </div>
