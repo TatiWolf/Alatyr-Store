@@ -12,8 +12,8 @@ function setFooter() {
                                class="link-button text-start"
                                placeholder="Email:">
                         <div class="checkbox-subscription">
-                            <input id="done"
-                                   type="checkbox">
+                            <img src="/statics/img/icons/check/noCheck.svg" alt="">
+                            <img src="/statics/img/icons/check/check.svg" alt="">
                             <label class="link-tiny"
                                    for="done">я согласен на все</label>
                         </div>
