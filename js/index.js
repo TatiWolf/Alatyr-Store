@@ -12,5 +12,5 @@ function swipe () {
 
 function allCatalog() {
     localStorage.clear()
-    location.href='../catalog/catalog.html';
+    location.href='../catalog.html';
 }

@@ -33,7 +33,7 @@ function transitionToProduct(productString) {
     localStorage.setItem('volume', product.volume);
     localStorage.setItem('type', product.type);
 
-    location.assign('../product/product.html');
+    location.assign('product.html');
 }
 
 let counts = [];
@@ -78,7 +78,7 @@ getFile('../../../statics/data/products.json')
             productElement.innerHTML = `
         <a class="flex" onclick="transitionToProduct('${encodeURIComponent(JSON.stringify(product))}')">
         <div class="product-list-img-wrap radius">
-        <img src="../../../${product.img}" class="product-list-img " alt="">
+        <img src="../${product.img}" class="product-list-img " alt="">
         </div>
         </a>
         <p class="paragraph mb-20">${product.name}</p>

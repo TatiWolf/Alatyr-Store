@@ -63,13 +63,15 @@ body {
     padding: 16px 30px;
 }
 
-.p-26-40 {
-    padding: 26px 40px;
+.p-20-40 {
+    padding: 20px 40px;
 }
 
 .p-35-40 {
     padding: 35px 40px;
 }
+
+
 
 .flex {
     display: flex;
@@ -257,7 +259,7 @@ body {
 .flower-404 {
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -40px;
     max-width: 780px;
 }
 
@@ -418,16 +420,29 @@ body {
 }
 
 .bottom-wrap-slider {
-    width: 520px ;
+    background-image: url("../img/slider/slider-wrap.svg");
+    /*width: 520px ;*/
     position: absolute;
     right: 0;
     bottom: 4px;
-    border-radius: 16px 0 0 0;
+    /*border-radius: 16px 0 0 0;*/
     z-index: 9999;
-    height: 108px;
-    background-color: #151515;
-    display: flex;
-    align-items: flex-end;
+    /*height: 108px;*/
+    /*background-color: #151515;*/
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+}
+.button-slider {
+    margin-left: 50px;
+    margin-top: 35px;
+    margin-right: 36px;
+    border-radius: 12px;
+    position: relative;
+    left: -15px;
+}
+
+.w-110 {
+    width: 110%;
 }
 
 .swiper-button-next {
@@ -473,4 +488,37 @@ body {
     z-index: 2;
     overflow: auto;
     max-height: 300px;
+}
+
+.blue-box {
+    background-color: #B8EAFF;
+    padding: 30px 40px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.border-black {
+    border-color: #151515;
+    border-width: 3px;
+}
+
+.max-600 {
+    max-width: 600px;
+}
+
+.button-blue {
+    transition: all 500ms ease;
+    color: #151515 !important;
+    cursor: pointer;
+}
+
+.button-blue:hover {
+    background-color: #151515;
+    color: #FFFFFF !important;
+    fill: #FFFFFF;
+}
+.button-blue:active {
+    background-color: #8C8C8C;
+    fill: #FFFFFF;
+    color: #FFFFFF;
 }

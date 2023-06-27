@@ -251,10 +251,17 @@ function changeCity() {
         linkElement.textContent = element;
         linkElement.classList.add('title-3', 'link', 'link-tiny', 'text-gray', 'mb-10', 'pointer');
         linkElement.addEventListener('click', () => {
+            let price = document.querySelector('#price')
             cityDefault = element;
             city.innerHTML = cityDefault;
             cityDelivery.innerHTML = cityDefault;
             cityWrap.classList.add('hide')
+            if (element === 'Москва' || element === 'Санкт-Петербург') {
+                price.innerHTML = `Бесплатно доставим заказ от 1 999 ₽ `
+                console.log(cityDefault)
+            } else {
+                price.innerHTML = `Бесплатно доставим заказ от 4 900 ₽ `
+            }
         });
         productElement.appendChild(linkElement);
         cityWrap.appendChild(productElement);

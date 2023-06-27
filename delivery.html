@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible"
           content="ie=edge">
     <link rel="stylesheet"
-          href="../../../statics/css/style.css">
-    <script src="../index/index.js"></script>
+          href="statics/css/style.css">
+    <script src="js/index.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
@@ -25,18 +25,18 @@
     <div class="container mb-20">
         <div class="delivery-title">
             <div class="radius border p-16-30 mr-20 flex delivery-title-element">
-                <img src="../../../statics/img/icons/shipping_ship_hand_truck_warehouse_delivery_icon_178292.svg"
+                <img src="statics/img/icons/shipping_ship_hand_truck_warehouse_delivery_icon_178292.svg"
                      alt="">
                 <p class="title-4 ml-20">Отправка заказа <br>
                     в течение 3 часов</p>
             </div>
             <div class="radius border p-16-30 mr-20 flex delivery-title-element">
-                <img src="../../../statics/img/icons/big-cargo-truck_icon-icons.com_68588.svg" alt="">
+                <img src="statics/img/icons/big-cargo-truck_icon-icons.com_68588.svg" alt="">
                 <p class="title-4 ml-20">Доставка <br>
                     по всему миру</p>
             </div>
             <div class="radius border p-16-30 flex delivery-title-element">
-                <img src="../../../statics/img/icons/clock_fast_icon_137750.svg" alt="">
+                <img src="statics/img/icons/clock_fast_icon_137750.svg" alt="">
                 <p class="title-4 ml-20">Отслеживание <br>
                     в личном кабинете</p>
             </div>
@@ -50,12 +50,12 @@
             <div class="free-delivery">
                 <div onclick="changeCity()" id="changeCity" class="border radius p-16-30 w-full check-city ">
                     <p class="title-3" id="city"></p>
-                    <img src="../../../statics/img/icons/cross.svg" alt="">
+                    <img src="statics/img/icons/cross.svg" alt="">
                 </div>
-                <div id="cityWrap" class="border radius p-26-40 city-wrap">
+                <div id="cityWrap" class="border radius p-20-40 city-wrap">
                 </div>
                 <p class="title-3 w-full">
-                    <span class="text-blue">Бесплатно доставим заказ от 4 900 ₽ </span>
+                    <span class="text-blue" id="price">Бесплатно доставим заказ от 1 999 ₽ </span>
                     в <span id="cityDelivery"></span> в пункт выдачи партнёров
                 </p>
             </div>
@@ -66,7 +66,7 @@
 <section class="section">
     <div class="container mb-20">
         <div class="delivery-map-wrap flex space-between">
-            <img src="../../../statics/img/delivery/map.png" alt="" class="delivery-map radius">
+            <img src="statics/img/delivery/map.png" alt="" class="delivery-map radius">
             <div class="border radius p-35-40">
                 <p class="title-3">Способы оплаты</p>
                 <ul>
@@ -77,9 +77,9 @@
                     <li class="paragraph">бонусными баллами</li>
                 </ul>
                 <div class="delivery-map-wrap-card">
-                    <img src="../../../statics/img/icons/master-card.svg" alt="" class="mr-20">
-                    <img src="../../../statics/img/icons/visa.svg" alt="" class="mr-20">
-                    <img src="../../../statics/img/icons/default-card.svg" alt="" class="mr-20">
+                    <img src="statics/img/icons/master-card.svg" alt="" class="mr-20">
+                    <img src="statics/img/icons/visa.svg" alt="" class="mr-20">
+                    <img src="statics/img/icons/default-card.svg" alt="" class="mr-20">
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
 <section class="section">
     <div class="container">
         <div class="support radius border flex space-between p-16-30">
-            <img src="../../../statics/img/icons/arrow-support.svg" alt="">
+            <img src="statics/img/icons/arrow-support.svg" alt="">
             <p class="paragraph text-support">
                 Если возникнут вопросы, звоните на бесплатный
                 номер
@@ -100,9 +100,9 @@
     </div>
 </section>
 
-<script src="delivery.js"></script>
-<script src="../header.js"></script>
-<script src="../footer.js"></script>
+<script src="js/delivery.js"></script>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
 
 
 </body>

@@ -10,18 +10,18 @@ function setHeader() {
                     <div id="catalog"
                          class="dropdown-content border">
                         <a class="link"
-                           href="../catalog/catalog.html" onclick="transitionToType('1')">уход для лица</a>
+                           href="catalog.html" onclick="transitionToType('1')">уход для лица</a>
                         <a class="link"
-                           href="../catalog/catalog.html" onclick="transitionToType('2')">уход для волос</a>
+                           href="catalog.html" onclick="transitionToType('2')">уход для волос</a>
                         <a class="link"
-                           href="../catalog/catalog.html" onclick="transitionToType('0')">уход для тела</a>
+                           href="catalog.html" onclick="transitionToType('0')">уход для тела</a>
                         <a class="link"
-                           href="../catalog/catalog.html" onclick="transitionToType('3')">мерч</a>
+                           href="catalog.html" onclick="transitionToType('3')">мерч</a>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <a href="../about/about.html">
+                        <a href="about.html">
                         <button class="animate-button dropdown link">о нас
                         </button>
                         </a>
@@ -34,21 +34,21 @@ function setHeader() {
                     <div id="contact"
                          class="dropdown-content border">
                         <a class="link"
-                           href="../about/about.html">производство</a>
+                           href="about.html">производство</a>
                         <a class="link"
                            href="https://spb.hh.ru/vacancy/81781547?from=vacancy_search_list&query=%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D0%BE%20%D0%B8%20%D1%82%D0%BE%D1%87%D0%BA%D0%B0">карьера</a>
                         <a class="link"
-                           href="../delivery/delivery.html">адреса магазинов</a>
+                           href="delivery.html">адреса магазинов</a>
                     </div>
                 </div>
 
             </div>
-            <a href="../index/index.html">
+            <a href="index.html">
             <img src="../../../statics/img/logo/logo-title.svg"
                  alt="Логотип компании Альтаир">
             </a>
             <div class="flex wrap flex-end max-400 align-start">
-                <a href="../404/404.html">
+                <a href="404.html">
                     <button
                             class="animate-button mb-20 flex align-center dropdown link mr-20">
                         <svg width="40" class="mr-20" height="40" viewBox="0 0 40 40"  xmlns="http://www.w3.org/2000/svg">
@@ -57,7 +57,7 @@ function setHeader() {
 корзина
                     </button>
                 </a>
-                <a class="border p-16-30" href="../404/404.html">
+                <a class="border p-16-30" href="404.html">
                     <img style="width: 29px"
                          src="../../../statics/img/icons/user.svg"
                          alt="">
@@ -69,15 +69,15 @@ function setHeader() {
                     <div id="delivery"
                          class="dropdown-content border">
                         <a class="link"
-                           href="../delivery/delivery.html">условия доставки</a>
+                           href="delivery.html">условия доставки</a>
                         <a class="link"
-                           href="../delivery/delivery.html">способы получения</a>
+                           href="delivery.html">способы получения</a>
                         <a class="link"
-                           href="../gift-card/gift-card.html">подарочные сертификаты</a>
+                           href="gift-card.html">подарочные сертификаты</a>
                         <a class="link"
-                           href="../gift-card/gift-card.html">клубная карта</a>
+                           href="gift-card.html">клубная карта</a>
                         <a class="link"
-                           href="../404/404.html">оплата</a>
+                           href="404.html">оплата</a>
                     </div>
                 </div>
             </div>
@@ -117,6 +117,6 @@ window.onclick = function (event) {
 
 function transitionToType(type) {
     localStorage.setItem('type', type)
-    location.href='../catalog/catalog.html';
+    location.href='/catalog.html';
 
 }
