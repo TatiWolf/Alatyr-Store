@@ -323,7 +323,7 @@ function showProduct () {
             productElement.innerHTML = `
         <a class="flex" onclick="transitionToProduct('${encodeURIComponent(JSON.stringify(product))}')">
         <div class="product-list-img-wrap radius">
-        <img src="../${product.img}" class="product-list-img " alt="">
+        <img src="${product.img}" class="product-list-img " alt="">
         </div>
         </a>
         <p class="paragraph mb-20">${product.name}</p>
