@@ -12,7 +12,7 @@ function productParse() {
     const productElement = document.createElement('div');
     productListContainer.innerHTML = `
         <div class="product-img-block radius">
-            <img src='../../../${product.img}' class="product-img" alt="">
+            <img src='${product.img}' class="product-img" alt="">
         </div>
         <div class="product-description">
             <p class="title-4 p-16-30 border radius mb-20">${product.name}</p>

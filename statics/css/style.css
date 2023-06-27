@@ -230,7 +230,7 @@ body {
 
 .grid-element-about-2 {
     grid-area: 9 / 1 / 11 / 2;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .grid-element-about-3 {
