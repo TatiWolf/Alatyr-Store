@@ -38,7 +38,7 @@ function transitionToProduct(productString) {
 
 let counts = [];
 
-getFile('../../../statics/data/products.json')
+getFile('../products.json')
     .then((data) => {
         let type = localStorage.getItem('type');
         let productsList = data.products;

@@ -44,7 +44,7 @@ function setHeader() {
 
             </div>
             <a href="index.html">
-            <img src="../../../statics/img/logo/logo-title.svg"
+            <img src="statics/img/logo/logo-title.svg"
                  alt="Логотип компании Альтаир">
             </a>
             <div class="flex wrap flex-end max-400 align-start">
@@ -59,7 +59,7 @@ function setHeader() {
                 </a>
                 <a class="border p-16-30" href="404.html">
                     <img style="width: 29px"
-                         src="../../../statics/img/icons/user.svg"
+                         src="statics/img/icons/user.svg"
                          alt="">
                 </a>
                 <div>
@@ -117,6 +117,6 @@ window.onclick = function (event) {
 
 function transitionToType(type) {
     localStorage.setItem('type', type)
-    location.href='/catalog.html';
+    location.href='catalog.html';
 
 }

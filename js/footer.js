@@ -33,7 +33,7 @@ function setFooter() {
                     <div class="mr-20">
                         <h4 class="title-3">О нас</h4>
                         <p class="mb-10" ><a href="about.html" class=" link link-tiny text-gray">производство</a></p>
-                        <p class="mb-10" ><a href="https://spb.hh.ru/vacancy/81781547?from=vacancy_search_list&query=%D0%B2%D0%BA%D1%83%D1%81%D0%BD%D0%BE%20%D0%B8%20%D1%82%D0%BE%D1%87%D0%BA%D0%B0" class=" link link-tiny text-gray">карьера</a></p>
+                        <p class="mb-10" ><a href="about.html" class=" link link-tiny text-gray">карьера</a></p>
                         <p class="mb-10" ><a href="delivery.html" class=" link link-tiny text-gray">адреса магазинов</a></p>
                     </div>
                     <div>
@@ -48,19 +48,19 @@ function setFooter() {
                     <h5 class="title-3">Возникли вопросы? Ответим!</h5>
                     <div class="flex space-between ">
                         <a class="footer-img-link flex align-center link link-tiny mr-20">
-                            <img  src="../../../statics/img/icons/instagram.svg"
+                            <img  src="statics/img/icons/instagram.svg"
                                  alt="">
                             <p>alatyr.ru</p>
                         </a>
                         <a href="mailto:support@alatyr.com"
                            class="footer-img-link flex align-center link link-tiny mr-20">
-                            <img  src="../../../statics/img/icons/envelope.svg"
+                            <img  src="statics/img/icons/envelope.svg"
                                  alt="">
                             <p>support@alatyr.com</p>
                         </a>
                         <a href="tel:+7 800 789 13 13"
                            class="footer-img-link flex align-center link link-tiny mr-20">
-                            <img src="../../../statics/img/icons/phone.svg"
+                            <img src="statics/img/icons/phone.svg"
                                  alt="">
                             <p>+7 800 789 13 13</p>
                         </a>
